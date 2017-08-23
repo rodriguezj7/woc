@@ -8,10 +8,10 @@ font-family: 'Raleway', sans-serif;
 
 /*
 /*Testing*/
-/** { border: 1px solid red;
+* { border: 1px solid red;
 
 	 }
-*/
+
 hr {
 	width: 950px;
 
@@ -182,18 +182,20 @@ li a:hover {
 	width: 100%;
 	order: 4;
 	display: flex;
+	flex-wrap: wrap;
 	text-align: center;
+	justify-content: center;
 }
 
 .proj {
-	width: 33.33%;
+	width: 30%;
 	margin: 30px;
 
 }
 
-.proj img{
+/*.proj img{
 	width: 100%;
-}
+}*/
 
 /*footer*/
 
