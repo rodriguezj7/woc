@@ -79,14 +79,15 @@ li a:hover {
 	width: 100%;
 	margin: 0 auto;
 	white-space: nowrap;
+	overflow: hidden;
 	/*border-bottom: 2px grey solid;*/
 }
 .content{
-	background: #cecece;
-	background: -moz-radial-gradient(center, ellipse cover, #cecece 0%, #9b2b95 100%);
-	background: -webkit-radial-gradient(center, ellipse cover, #cecece 0%,#9b2b95 100%);
-	background: radial-gradient(ellipse at center, #cecece 0%,#9b2b95 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecece', endColorstr='#9b2b95',GradientType=1 );
+	background: #8665d3;
+	background: -moz-radial-gradient(center, ellipse cover, #8665d3 0%, #8011db 40%, #8106ce 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #8665d3 0%,#8011db 40%,#8106ce 100%);
+	background: radial-gradient(ellipse at center, #8665d3 0%,#8011db 40%,#8106ce 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8665d3', endColorstr='#8106ce',GradientType=1 );
 	order: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -128,6 +129,7 @@ li a:hover {
 	margin: 0 auto;
 	width: 50%;
 	text-align: left;
+	white-space: pre-line;
 }
 
 #info{
@@ -135,7 +137,7 @@ li a:hover {
 }
 
 .border{
-	border: 1px solid black;
+	border: 1px solid #E69B50;
 	width: 45%;
 }
 
