@@ -37,7 +37,8 @@ body {
 header{
 	width: 100%;
 	text-align: center;
-	background-color: #9e3199;
+	/*background-color: #9e3199;*/
+	background-color: #f39c12;
 	height: 100px;
 }
 
@@ -83,11 +84,11 @@ li a:hover {
 	/*border-bottom: 2px grey solid;*/
 }
 .content{
-	background: #8665d3;
-	background: -moz-radial-gradient(center, ellipse cover, #8665d3 0%, #8011db 40%, #8106ce 100%);
-	background: -webkit-radial-gradient(center, ellipse cover, #8665d3 0%,#8011db 40%,#8106ce 100%);
-	background: radial-gradient(ellipse at center, #8665d3 0%,#8011db 40%,#8106ce 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8665d3', endColorstr='#8106ce',GradientType=1 );
+	background: #ffaf4b;
+	background: -moz-radial-gradient(center, ellipse cover, #ffaf4b 0%, #ff920a 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #ffaf4b 0%,#ff920a 100%);
+	background: radial-gradient(ellipse at center, #ffaf4b 0%,#ff920a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=1 );;
 	order: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -167,6 +168,19 @@ li a:hover {
 	margin-bottom: -8px;
 }
 
+.bordersvg2{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    margin-top: -8px;
+}
+
+#bordersvg2bttm{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    margin-top: -8px;
+}
 
 .devicons{
 	color: #2A80B9;
@@ -189,10 +203,14 @@ li a:hover {
 	flex-wrap: wrap;
 	text-align: center;
 	justify-content: center;
+	background: #e570e7;
+	background: -moz-radial-gradient(center, ellipse cover, #e570e7 0%, #c85ec7 47%, #a849a3 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #e570e7 0%,#c85ec7 47%,#a849a3 100%);
+	background: radial-gradient(ellipse at center, #e570e7 0%,#c85ec7 47%,#a849a3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=1 );
 }
-
 .proj {
-	width: 30%;
+	width: 40%;
 	margin: 30px;
 
 }
@@ -205,6 +223,12 @@ li a:hover {
 .proj2 h2{
 	text-align: center;
 }
+
+.content2{
+ 	width: 100%;
+ 	order:5;
+}
+
 
 /*.proj img{
 	width: 100%;
