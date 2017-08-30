@@ -137,6 +137,7 @@ li a:hover {
 }
 
 .border{
+	text-align: center;
 	border: 1px solid #E69B50;
 	width: 45%;
 }
@@ -179,6 +180,7 @@ li a:hover {
 	margin-left: 10px;
 	width: 100%;
 	order: 2;
+	margin-top: 20px;
 }
 .work {
 	width: 100%;
@@ -193,6 +195,15 @@ li a:hover {
 	width: 30%;
 	margin: 30px;
 
+}
+.proj2 {
+	width: 30%;
+	margin: 30px;
+	text-align: left;
+
+}
+.proj2 h2{
+	text-align: center;
 }
 
 /*.proj img{
