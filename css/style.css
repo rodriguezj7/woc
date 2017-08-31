@@ -209,6 +209,12 @@ li a:hover {
 	background: radial-gradient(ellipse at center, #e570e7 0%,#c85ec7 47%,#a849a3 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=1 );
 }
+
+.content2{
+ 	width: 100%;
+ 	order:5;
+}
+
 .proj {
 	width: 40%;
 	margin: 30px;
@@ -216,18 +222,21 @@ li a:hover {
 }
 .proj2 {
 	width: 30%;
-	margin: 30px;
+	margin: 10px;
 	text-align: left;
 
 }
 .proj2 h2{
 	text-align: center;
 }
-
-.content2{
- 	width: 100%;
- 	order:5;
+.proj2 ul{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	overflow: hidden;
+	white-space: pre-line;
 }
+
 
 
 /*.proj img{
