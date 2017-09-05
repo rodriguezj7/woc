@@ -189,12 +189,12 @@ li a:hover {
 
 /*work*/
 
-#featured {
-	text-align: center;
-	margin-left: 10px;
+.featured {
 	width: 100%;
+	margin: 0 auto;
+	background: #F39C12;
+	text-align: center;
 	order: 2;
-	margin-top: 20px;
 }
 .work {
 	width: 100%;
@@ -209,20 +209,39 @@ li a:hover {
 	background: radial-gradient(ellipse at center, #e570e7 0%,#c85ec7 47%,#a849a3 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=1 );
 }
-
 .content2{
  	width: 100%;
  	order:5;
+ 	background: #e4efc0;
+	background: -moz-radial-gradient(center, ellipse cover, #e4efc0 0%, #abbd73 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #e4efc0 0%,#abbd73 100%);
+	background: radial-gradient(ellipse at center, #e4efc0 0%,#abbd73 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', endColorstr='#abbd73',GradientType=1 );
+}
+.featured2 {
+	margin: 0 auto;
+	text-align: center;
+	order: 2;
+}
+.work2 {
+
+	width: 100%;
+	order: 4;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
 }
 
 .proj {
+	list-style: none;
 	width: 40%;
 	margin: 30px;
 
 }
 .proj2 {
-	width: 30%;
-	margin: 10px;
+	width: 25%;
+	margin: 25px;
 	text-align: left;
 
 }
@@ -232,9 +251,8 @@ li a:hover {
 .proj2 ul{
 	margin: 0;
 	padding: 0;
-	display: inline;
-	overflow: hidden;
 	white-space: pre-line;
+	list-style: none;
 }
 
 
