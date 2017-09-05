@@ -228,23 +228,33 @@ li a:hover {
 	text-align: center;
 	order: 2;
 }
+.heart{
+	width: 15%;
+}
+
+#border3bttm{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    margin-top: 0px;
+}
+
 .work2 {
 	width: 100%;
 	order: 4;
 	display: flex;
 	flex-wrap: wrap;
-	text-align: center;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 .proj {
 	list-style: none;
-	width: 40%;
-	margin: 30px;
+	width: 30%;
+	margin: 15px;
 
 }
 .proj2 {
-	width: 800px;
+	width: 40%;
 	margin: 10px;
 	text-align: left;
 
@@ -253,8 +263,6 @@ li a:hover {
 	text-align: center;
 }
 .proj2 ul{
-	margin: 0;
-	padding: 0;
 	list-style: none;
 }
 
