@@ -74,7 +74,7 @@ li a:hover {
 
 /* container */
 .container{
-	background-color: #FFFFFF;
+	background-color: #F39C12;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
@@ -187,11 +187,14 @@ li a:hover {
 	font-size: 75px;
 }
 
-/*work*/
+/*PLATFORMS */
+.Quote{
+	width: 100%;
+}
 
 .featured {
 	width: 100%;
-	margin: 0 auto;
+	margin:25px;
 	background: #F39C12;
 	text-align: center;
 	order: 2;
@@ -212,19 +215,20 @@ li a:hover {
 .content2{
  	width: 100%;
  	order:5;
- 	background: #e4efc0;
-	background: -moz-radial-gradient(center, ellipse cover, #e4efc0 0%, #abbd73 100%);
-	background: -webkit-radial-gradient(center, ellipse cover, #e4efc0 0%,#abbd73 100%);
-	background: radial-gradient(ellipse at center, #e4efc0 0%,#abbd73 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4efc0', endColorstr='#abbd73',GradientType=1 );
+ 	background: #84ccba;
+	background: -moz-radial-gradient(center, ellipse cover, #84ccba 0%, #16a085 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, #84ccba 0%,#16a085 100%);
+	background: radial-gradient(ellipse at center, #84ccba 0%,#16a085 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84ccba', endColorstr='#16a085',GradientType=1 );
 }
 .featured2 {
+	padding: 25px;
+	background-color: #16a085;
 	margin: 0 auto;
 	text-align: center;
 	order: 2;
 }
 .work2 {
-
 	width: 100%;
 	order: 4;
 	display: flex;
@@ -240,8 +244,8 @@ li a:hover {
 
 }
 .proj2 {
-	width: 25%;
-	margin: 25px;
+	width: 800px;
+	margin: 10px;
 	text-align: left;
 
 }
@@ -251,7 +255,6 @@ li a:hover {
 .proj2 ul{
 	margin: 0;
 	padding: 0;
-	white-space: pre-line;
 	list-style: none;
 }
 
