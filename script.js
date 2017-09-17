@@ -12,3 +12,11 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
+
+
+document.getElementByClassName("proj").addEventListener("click", showInfo());
+
+
+function showInfo(){
+	var hidden = getElementsByClassName('proj2');
+}
