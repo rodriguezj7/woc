@@ -14,13 +14,10 @@ function showSlides() {
 }
 
 
-document.getElementByClassName("proj").addEventListener("click", showInfo());
+$(".show").on("click", function(){
+        $("a").siblings().toggle(1000);
+    });
 
 
 
 // on click add id show to specific div and show hidden div
-function showInfo(){
-	var x = document.getElementsByClassName("proj2");
-
-
-}
