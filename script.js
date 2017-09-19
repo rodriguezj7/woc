@@ -17,6 +17,10 @@ function showSlides() {
 document.getElementByClassName("proj").addEventListener("click", showInfo());
 
 
+
+// on click add id show to specific div and show hidden div
 function showInfo(){
-	var hidden = getElementsByClassName('proj2');
+	var x = document.getElementsByClassName("proj2");
+
+
 }
