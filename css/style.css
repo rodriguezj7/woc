@@ -436,6 +436,9 @@ footer {
 	body{
 		width: 100%;
 	}
+	#compName{
+		font-size: 28px;
+	}
 	 .container, .work {
 	 	display: flex;
 	 	flex-wrap: wrap;
@@ -447,44 +450,32 @@ footer {
 		flex-wrap: wrap;
 	}
 
-
-
-	 .name {
-		font-size: 20px;
-	}
-
-	.about img {
-		width: 50%;
-	}
-
 	.content {
 		display: flex;
 		flex-wrap: wrap;
 	}
 
-	.about {
-		width: 100%;
-	}
-
-
 	.proj {
-		width: 100%;
-		margin: 0 auto;
+		width: 70%;
 	}
-
-	.footer{
-
+	.img-about{
+		width: 100%;
 	}
 
 }
 
 
 
-@media screen and (max-width: 412px){
-
-	.name h1{
-		display: none;
+@media screen and (max-width: 401px){
+	.info{
+		width: 100%;
+		text-align: center;
 	}
+	.img-about{
+		margin: 0 auto;
+		width: 100%;
+	}
+
 	.devicons{
 	color: #2A80B9;
 	font-size: 40px;
