@@ -318,6 +318,17 @@ footer {
 	width: 100%;
 	text-align: center;
 }
+.fb-feed2{
+	display: none;
+}
+
+.fb-feed {
+	margin: 10px;
+	-webkit-box-shadow: 3px 3px 5px #000;
+    box-shadow: 3px 3px 5px #000;
+}
+
+
 
 
 
@@ -479,6 +490,10 @@ footer {
 	.border{
 		display: none;
 	}
+		.fb-feed2{
+		display: none;
+	}
+
 
 }
 
@@ -506,6 +521,16 @@ footer {
 		flex-wrap: wrap;
 		flex-direction: column;
 	}
+	.fb-feed{
+		display: none;
+	}
+	.fb-feed2{
+		display: initial;
+		margin: 10px;
+		border-radius: 15%;
+	}
+
+
 
 }
 
