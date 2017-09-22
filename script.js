@@ -14,7 +14,8 @@ function showSlides() {
 }
 
 var toggleShow = function(){
-
+    const
+    const
 };
 
 // on click add id show to specific div and show hidden div
