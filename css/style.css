@@ -432,7 +432,7 @@ footer {
 
 
 
-@media screen and (max-width: 740px){
+@media screen and (max-width: 750px){
 	body{
 		width: 100%;
 	}
@@ -459,7 +459,25 @@ footer {
 		width: 70%;
 	}
 	.img-about{
+		margin: 0 auto;
+		text-align: center;
 		width: 100%;
+	}
+	.info{
+		text-align: center;
+		width: 100%;
+	}
+	#info{
+		width: 100%;
+		text-align: center;
+		order:2;
+	}
+	#middleRow{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.border{
+		display: none;
 	}
 
 }
@@ -469,6 +487,9 @@ footer {
 @media screen and (max-width: 401px){
 	.info{
 		width: 100%;
+		text-align: center;
+	}
+	#info{
 		text-align: center;
 	}
 	.img-about{
@@ -492,20 +513,11 @@ footer {
 
 @media screen and (max-width: 1201px){
 
-	.tools {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-	}
 
 }
 
 
 @media screen and (max-width: 850px){
-
-	.about img {
-		width: 40%;
-	}
 
 }
 
