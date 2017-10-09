@@ -1,3 +1,7 @@
+let info = $('.proj2');
+let more = $('.show')
+let y = 0; 
+let x = 0;
 var slideIndex = 0;
 showSlides();
 
@@ -13,11 +17,19 @@ function showSlides() {
     setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
 
-var toggleShow = function(){
-    const
-    const
-};
+
 
 // on click add id show to specific div and show hidden div
 // function expressions can not be called before actual expression since they are not hoisted
-toggleShow();
+$(document).ready(function(){
+    $(".show").click(function(){
+        y++
+        $(this).html('Less');
+        let target = $(this).siblings('.proj2');
+        target.toggle();
+        if(y%2 === 0){
+            $(this).html('More');
+        }
+    });
+},1000);
+info.hide();

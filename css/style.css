@@ -99,16 +99,16 @@ li a:hover {
 	flex-wrap: wrap;
 	justify-content: center;
  	width: 100%;
- 	color: #000;
+ 	color: #4e4848;
 }
 
  /* ROW DIV WITH IMG AND INFO*/
 
  .row{
  	order: 1;
- 	margin: 10px;
+ 	margin: -10px;
  	padding: 0;
- 	width: 100%;
+ 	width: 80%;
  	display: flex;
  	flex-wrap: wrap;
  	justify-content: center;
@@ -132,7 +132,6 @@ li a:hover {
 }
 .info{
 	padding-top: 15px;
-	margin: 0 auto;
 	width: 50%;
 	text-align: left;
 	white-space: pre-line;
@@ -177,7 +176,7 @@ li a:hover {
 	-ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
-    margin-top: -8px;
+    margin-top: -48px;
 }
 
 #bordersvg2bttm{
@@ -203,8 +202,10 @@ li a:hover {
 	background: #9e3199;
 	text-align: center;
 	order: 2;
+	color:#3D3D3D;
 }
 .work {
+	color: #3D3D3D;
 	width: 100%;
 	order: 4;
 	display: flex;
@@ -252,11 +253,14 @@ li a:hover {
 	order: 4;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 	background: #28A78E;
-	
 }
-
+a.show:hover{
+	color:#000;
+	font-weight: bold;
+	font-size: 18px;
+}
 .proj {
 	list-style: none;
 	width: 30%;
@@ -265,10 +269,14 @@ li a:hover {
 
 }
 .proj2 {
-	display: none;
+	display: initial;
 	margin: 10px;
 	text-align: left;
-
+}
+.proj2 .list{
+	display: inline-block;
+	margin: 10px;
+	text-align: left;
 }
 .proj2 h2{
 	text-align: center;
@@ -323,9 +331,8 @@ footer {
 }
 
 .fb-feed {
-	margin: 10px;
-	-webkit-box-shadow: 3px 3px 5px #000;
-    box-shadow: 3px 3px 5px #000;
+	margin-top: 38px;
+	margin-bottom: 30px;
 }
 
 
