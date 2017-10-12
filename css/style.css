@@ -8,9 +8,9 @@ font-family: 'Raleway', sans-serif;
 
 /*
 /*Testing*/
-* { border: 1px solid red;
+/** { border: 1px solid red;
 
-	 }
+	 }*/
 
 hr {
 	width: 950px;
@@ -25,6 +25,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	height: 100%;
+	background-color: #9C3797;
 }
 
 
@@ -122,11 +123,8 @@ li a:hover {
 
 .img-about{
     margin-top: 3em;
-    -moz-box-shadow: 3px 3px 5px #000;
-    -webkit-box-shadow: 3px 3px 5px #000;
-    box-shadow: 3px 3px 5px #000;
     border: 1px solid #000;
-    width: 35%;
+    width: 30%;
     border-radius: 50%;
     margin: 50px;
 }
@@ -346,12 +344,15 @@ footer {
   height: 600px;
   margin: -1px auto;
   padding: 0;
+  background-color: #F19B2C;
+  overflow: hidden;
 }
 
 .mySlides {
  	width:100%;
- 	height: 600px;
+ 	height: 900px;
     display: none;
+    margin-top: -100px;
 }
 
 .mySlides img{
@@ -476,6 +477,9 @@ footer {
 	.proj {
 		width: 70%;
 	}
+	.picture{
+		width: 100%;
+	}
 	.img-about{
 		margin: 0 auto;
 		text-align: center;
@@ -500,9 +504,26 @@ footer {
 		.fb-feed2{
 		display: none;
 	}
+	.slideshow-container {
+	  width:100%;
+	  height: 400px;
+	  margin: -1px auto;
+	  padding: 0;
+	}
 
+	.mySlides {
+	 	width:100%;
+	 	height: 400px;
+	    display: none;
+	}
+
+	.mySlides img{
+		max-width:100%;
+		max-height:100%;
+	}
 
 }
+
 
 
 
@@ -536,8 +557,9 @@ footer {
 		margin: 10px;
 		border-radius: 15%;
 	}
-
-
+	.picture{
+		width: 100%;
+	}
 
 }
 
