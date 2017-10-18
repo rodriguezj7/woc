@@ -23,13 +23,8 @@ function showSlides() {
 // function expressions can not be called before actual expression since they are not hoisted
 $(document).ready(function(){
     $(".show").click(function(){
-        y++
-        $(this).html('Less');
         let target = $(this).siblings('.proj2');
         target.toggle();
-        if(y%2 === 0){
-            $(this).html('More');
-        }
     });
 },1000);
 info.hide();
