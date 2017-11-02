@@ -109,7 +109,7 @@ li a:hover {
 	/*border-bottom: 2px grey solid;*/
 }
 .content{
-	background: repeating-radial-gradient(circle at 0 0,#DC5AB3,#DB36AA 600px);
+	background: repeating-radial-gradient(circle at top right,#ad41a8,#9C3797 400px);
 	order: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -240,11 +240,11 @@ li a:hover {
 	flex-wrap: wrap;
 	text-align: center;
 	justify-content: center;
-	background: #ffaf4b;
+	/*background: #ffaf4b;
 	background: -moz-radial-gradient(center, ellipse cover, #ffaf4b 0%, #ff920a 100%);
 	background: -webkit-radial-gradient(center, ellipse cover, #ffaf4b 0%,#ff920a 100%);
-	background: radial-gradient(ellipse at center, #ffaf4b 0%,#ff920a 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=1 );
+	background: radial-gradient(ellipse at center, #ffaf4b 0%,#ff920a 100%); */
+	background: repeating-radial-gradient(circle at 0 0,#e8942e,#f19b2c 500px);
 }
 #border2bttm{
 	margin-bottom:-3px;
@@ -488,8 +488,12 @@ footer {
 	body{
 		width: 100%;
 	}
+	.brandlogo img{
+	display: none;
+	}
 	#compName{
 		font-size: 28px;
+		order: 1;
 	}
 	 .container, .work {
 	 	display: flex;
@@ -563,6 +567,13 @@ footer {
 
 
 @media screen and (max-width: 401px){
+	.brandlogo img{
+	display: none;
+	}
+	#compName{
+		font-size: 25px;
+		order: 1;
+	}
 	.info{
 		width: 100%;
 		text-align: center;
