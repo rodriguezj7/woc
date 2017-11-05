@@ -12,6 +12,11 @@ font-family: 'Raleway', sans-serif;
 
 	 }*/
 
+*{
+	padding: 0;
+	margin: 0;
+}
+
 hr {
 	width: 950px;
 
@@ -21,11 +26,11 @@ hr {
 
 /*Body*/
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: Open Sans,serif;
 	width: 100%;
 	margin: 0 auto;
 	height: 100%;
-	background-color: #f19b2c;
+	background-color: #EEEEEE;
 }
 
 
@@ -36,13 +41,64 @@ body {
 
 /* Header*/
 header{
-	width: 100%;
+	background-color: #EEEEEE;
+	margin: 0 auto;
+	width: 1024px;
 	text-align: center;
 	/*background-color: #9e3199;*/
-	height: 100px;
+	height: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.nav-bar{
+	background-color: #F19B2C;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+/* NAV */
+nav {
+	margin: 0 auto;
+  	padding: 50px;
+}
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+li:last-child {
+  border-right: none;
+}
+li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+li a:hover {
+	color:#F19B2C;
+}
+li.activeli a {
+  font-weight: bold;
+  color: #000;
 }
 
 .brandlogo{
+	width: 100%;
+	order: 1;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -65,26 +121,15 @@ header{
 }*/
 #compName {
 	order: 2;
-	color: #fff;
+	color: #000;
 	font-size: 2em;
 	font-weight: bold;
 	font-family: 'lato', sans-serif;
 	margin-left: 10px;
-    text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
 }
 
 #compName {
+	margin: 20px;
   text-align: center;
 }
 
@@ -99,6 +144,7 @@ li a:hover {
 
 /* container */
 .container{
+	font-family: Open Sans,serif;
 	background-color: #EEEEEE;
 	display: flex;
 	flex-wrap: wrap;
@@ -113,7 +159,7 @@ li a:hover {
 	width: 80%;
 	background-color: white;
 	border-radius: 10%;
-	background: repeating-radial-gradient(circle at top right,#ad41a8,#9C3797 1050px);
+	background: repeating-radial-gradient(circle at top right,#ad41a8,#9C3797 650px);
 }
 .content{
 	background: #EEEEEE;
@@ -168,6 +214,10 @@ li a:hover {
 	width: 50%;
 	text-align: left;
 	white-space: pre-line;
+}
+
+.info h2{
+	padding-top: 30px;
 }
 
 .info p{
@@ -230,13 +280,14 @@ li a:hover {
 
 /*PLATFORMS */
 .Quote{
+	margin: 40px;
 	width: 100%;
 }
 
 .featured {
 	width: 100%;
 	padding:25px;
-	background: #9e3199;
+	background: #F39C12;
 	text-align: center;
 	order: 2;
 	color:#3D3D3D;
@@ -304,6 +355,9 @@ li a:hover {
 	justify-content: center;
 	background: #28A78E;
 }
+.proj a {
+	margin: 10px;
+}
 a.show:hover{
 	color:#000;
 	font-weight: bold;
@@ -321,7 +375,7 @@ a.show:hover{
 }
 .proj2 {
 	display: initial;
-	margin: 10px;
+	margin-left: 20px;
 	text-align: left;
 }
 .proj2 .list{
