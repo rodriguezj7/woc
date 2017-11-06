@@ -1,6 +1,6 @@
 let info = $('.proj2');
 let more = $('.show')
-let y = 0; 
+let y = 0;
 let x = 0;
 var slideIndex = 0;
 showSlides();

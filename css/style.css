@@ -27,10 +27,11 @@ hr {
 /*Body*/
 body {
 	font-family: Open Sans,serif;
-	width: 100%;
+	width: 1024px;
 	margin: 0 auto;
 	height: 100%;
-	background-color: #EEEEEE;
+	background-color: #fff;
+	border: 1px solid #D2D7D3;
 }
 
 
@@ -41,45 +42,43 @@ body {
 
 /* Header*/
 header{
-	background-color: #EEEEEE;
+	background-color: #fff;
 	margin: 0 auto;
 	width: 1024px;
 	text-align: center;
 	/*background-color: #9e3199;*/
-	height: 150px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 .nav-bar{
-	background-color: #F19B2C;
+	background-color: #F39C12;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding: 10px;
 }
 /* NAV */
-nav {
+.nav-bar nav {
 	margin: 0 auto;
-  	padding: 50px;
 }
-ul {
+.nav-bar ul {
   overflow: auto;
   list-style-type: none;
 }
-li {
+.nav-bar li {
   height: 25px;
   float: left;
-  margin-right: 0px;
-  border-right: 1px solid #aaa;
-  padding: 0 20px;
+  margin-right: 0px; 
+  padding: 20px;
 }
-li:last-child {
+.nav-bar li:last-child {
   border-right: none;
 }
-li a {
+.nav-bar li a {
   text-decoration: none;
-  color: #ccc;
+  color: #fff;
   font: 25px/1 Helvetica, Verdana, sans-serif;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
@@ -88,27 +87,21 @@ li a {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-li a:hover {
-	color:#F19B2C;
+.nav-bar li a:hover {
+	background-color:#F19B2C;
 }
-li.activeli a {
+.nav-bar li.activeli a {
   font-weight: bold;
   color: #000;
 }
 
 .brandlogo{
-	width: 100%;
-	order: 1;
-	display: flex;
-	flex-wrap: wrap;
+
 }
 .brandlogo img{
-	order:1;
-	margin: -30px;
-	padding-left: 30px;
-	width: 120px;
 	height: 120px;
-	opacity: 0.2;
+	width: 120px;
+	padding: 10px;
 }
 /*
 #compName{
@@ -134,12 +127,6 @@ li.activeli a {
 }
 
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-	height: 60px;
-    background-color: #008CBA;
-}
-
 
 
 /* container */
@@ -162,7 +149,7 @@ li a:hover {
 	background: repeating-radial-gradient(circle at top right,#ad41a8,#9C3797 650px);
 }
 .content{
-	background: #EEEEEE;
+	background: repeating-radial-gradient(circle at top right,#ad41a8,#9C3797 650px);
 	order: 1;
 	display: flex;
 	flex-wrap: wrap;
@@ -184,19 +171,16 @@ li a:hover {
 }
 
 .picture{
-	margin: 0 auto;
+	margin-top:15px;
 	width: 50%;
 	text-align: center;
 }
 
 .img-about{
     margin-top: 3em;
-    border: 1px solid  #b791b5;
     width: 30%;
     border-radius: 50%;
     margin: 50px;
-    position: relative;
-    overflow: hidden;
 }
 .img-about:before {
     position: absolute;
@@ -228,11 +212,11 @@ li a:hover {
 	text-align: right;
 }
 
-/*.border{
+.border{
 	text-align: center;
 	border: 1px solid #E69B50;
 	width: 30%;
-}*/
+}
 
 
 
@@ -287,7 +271,7 @@ li a:hover {
 .featured {
 	width: 100%;
 	padding:25px;
-	background: #F39C12;
+	background: #8E44AD;
 	text-align: center;
 	order: 2;
 	color:#3D3D3D;
@@ -304,7 +288,7 @@ li a:hover {
 	background: -moz-radial-gradient(center, ellipse cover, #ffaf4b 0%, #ff920a 100%);
 	background: -webkit-radial-gradient(center, ellipse cover, #ffaf4b 0%,#ff920a 100%);
 	background: radial-gradient(ellipse at center, #ffaf4b 0%,#ff920a 100%); */
-	background: #ECF0F1;
+	background: repeating-radial-gradient(circle at 0 0,#e8942e,#f19b2c 500px);
 }
 .container3{
 	display: flex;
@@ -375,7 +359,6 @@ a.show:hover{
 }
 .proj2 {
 	display: initial;
-	margin-left: 20px;
 	text-align: left;
 }
 .proj2 .list{
@@ -405,12 +388,11 @@ a.show:hover{
 /*footer*/
 
 footer {
+	background-color: #31A68E;
+	order: 5;
 	height: 100px;
-	display: flex;
-	flex-wrap: wrap;
 	width: 100%;
-	margin: 0 auto;
-	margin-top: 1em;
+	padding: 20px;
 }
 .icons{
 	text-align: center;
@@ -447,19 +429,11 @@ footer {
 /*SLIDE SHOW*/
 /* Slideshow container */
 .slideshow-container {
-  width:100%;
   height: 600px;
-  margin: -1px auto;
-  padding: 0;
-  background-color: #F19B2C;
   overflow: hidden;
 }
 
 .mySlides {
- 	width:100%;
- 	height: 900px;
-    display: none;
-    margin-top: -50px;
 }
 
 .mySlides img{
