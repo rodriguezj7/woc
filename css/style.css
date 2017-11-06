@@ -27,7 +27,7 @@ hr {
 /*Body*/
 body {
 	font-family: Open Sans,serif;
-	width: 1024px;
+	width: 100%;
 	margin: 0 auto;
 	height: 100%;
 	background-color: #fff;
