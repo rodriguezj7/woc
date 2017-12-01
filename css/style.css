@@ -621,9 +621,6 @@ input[type=submit]:hover {
 	body{
 		width: 100%;
 	}
-	.brandlogo img{
-	display: none;
-	}
 	#compName{
 		font-size: 28px;
 		order: 1;
@@ -700,9 +697,6 @@ input[type=submit]:hover {
 
 
 @media screen and (max-width: 401px){
-	.brandlogo img{
-	display: none;
-	}
 	#compName{
 		font-size: 25px;
 		order: 1;
