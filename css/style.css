@@ -1,8 +1,10 @@
 
-/*FONT's available
+/*************       FONT's available             ***********************************
 
 font-family: 'Lato', sans-serif;
 font-family: 'Raleway', sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+ROBOTO
 
 */
 
@@ -12,6 +14,7 @@ font-family: 'Raleway', sans-serif;
 
 	 }*/
 
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 *{
 	padding: 0;
 	margin: 0;
@@ -31,7 +34,6 @@ body {
 	margin: 0 auto;
 	height: 100%;
 	background-color: #fff;
-	border: 1px solid #D2D7D3;
 }
 
 
@@ -40,7 +42,7 @@ body {
 
 
 
-/* Header*/
+/************************************** Header ***************************/
 header{
 	background-color: #fff;
 	margin: 0 auto;
@@ -59,7 +61,7 @@ header{
 	justify-content: center;
 	padding: 10px;
 }
-/* NAV */
+/****************************** NAV BAR **********************************/
 .nav-bar nav {
 	margin: 0 auto;
 }
@@ -117,13 +119,13 @@ header{
 	color: #000;
 	font-size: 2em;
 	font-weight: bold;
-	font-family: 'lato', sans-serif;
 	margin-left: 10px;
-}
-
-#compName {
 	margin: 20px;
-  text-align: center;
+  	text-align: center;
+  	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	line-height: 30px;
+}
 }
 
 
@@ -158,7 +160,7 @@ header{
  	color: #ECECEC;
 }
 
- /* ROW DIV WITH IMG AND INFO*/
+ /***************************** ROW DIV WITH IMG AND INFO**************/
 
  .row{
  	order: 1;
@@ -262,7 +264,7 @@ header{
 	font-size: 75px;
 }
 
-/*PLATFORMS */
+/**********************************PLATFORMS ***********************************/
 .Quote{
 	margin: 40px;
 	width: 100%;
@@ -385,9 +387,54 @@ a.show:hover{
     transform: rotate(180deg);
     margin-top: 0px;
 }
-/*footer*/
+
+
+/*---------------------------MEMBERS PAGE/ABOUT US------------------------*/
+
+.container-members{
+  max-width: 1024px;
+  width: 100%;
+  margin: 25px auto;
+  padding: 50px;
+  position: relative;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.history{
+	width: 50%;
+	order:1;
+}
+.founding-members{
+	text-align: left;
+	width: 50%;
+	order:2;
+}
+.title-1{
+	padding: 5px;
+	width: 100%;
+}
+.list1{
+	padding: 10px;
+	width: 100%;
+}
+.list1 ul{
+	list-style: none;
+}
+.list1 ul li{
+	margin-bottom: 10px;
+}
+/***************                footer               *******************/
 
 footer {
+	font-weight: 100;
+	font-size: 12px;
+	line-height: 30px;
+	color: #777;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
 	width: 100%;
 	background-color: #31A68E;
 	order: 5;
