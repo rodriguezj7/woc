@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- FONT AWESOME/ICONS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,700,700i" rel="stylesheet">
   </head>
@@ -29,7 +31,7 @@
    </div>
 
   </header>
-  <div class="nav-bar">
+  <div class="nav-bar" id="myTopnav">
       <nav>
         <ul>
           <li class="activeli"><a href="#">Home</a></li>
@@ -37,44 +39,54 @@
           <li><a href="events.html">Events</a></li>
           <li><a href="#">Donate</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li class="icon"><a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a></li>
         </ul>
     </nav>
    </div>
    <!-- SLIDESHOW -->
   <div class="slideshow-container">
-          <div class="mySlides fade">
+          <div class="mySlides fill">
         <!--     <div class="numbertext">3 / 3</div> -->
               <picture>
               <!-- <source media="(max-width: 599px)" srcset="images_src/me-small_small.jpg">
               <source media="(min-width: 600px)" srcset="images_src/me-large_large.jpg"> -->
-              <img src="images/WOC106.jpeg" alt="Women of Color" style="width: 100%;height: 100%">
+              <img src="images/WOC43.jpeg" alt="Women of Color" class="img-responsive" style="width: 100%;height: 100%">
             </picture>
             <!-- <img src="http://via.placeholder.com/1000x600" style="width: 100%;height: 100%"> -->
           </div>
-          <div class="mySlides fade">
+          <div class="mySlides fill">
         <!--     <div class="numbertext">3 / 3</div> -->
               <picture>
               <!-- <source media="(max-width: 599px)" srcset="images_src/me-small_small.jpg">
               <source media="(min-width: 600px)" srcset="images_src/me-large_large.jpg"> -->
-              <img src="images/WOC5.jpeg" alt="Women of Color" style="width: 100%;height: 100%">
+              <img src="images/WOC37.jpeg" alt="Women of Color" class="img-responsive" style="width: 100%;height: 100%">
             </picture>
             <!-- <img src="http://via.placeholder.com/1000x600" style="width: 100%;height: 100%"> -->
           </div>
-          <div class="mySlides fade">
+          <div class="mySlides fill">
         <!--     <div class="numbertext">3 / 3</div> -->
               <picture>
               <!-- <source media="(max-width: 599px)" srcset="images_src/me-small_small.jpg">
               <source media="(min-width: 600px)" srcset="images_src/me-large_large.jpg"> -->
-              <img src="images/WOC77.jpeg" alt="Women of Color" style="width: 100%;height: 100%">
+              <img src="images/WOC5.jpeg" alt="Women of Color" class="img-responsive" style="width: 100%;height: 100%">
             </picture>
             <!-- <img src="http://via.placeholder.com/1000x600" style="width: 100%;height: 100%"> -->
           </div>
-          <div class="mySlides fade">
+          <div class="mySlides fill">
         <!--     <div class="numbertext">3 / 3</div> -->
               <picture>
               <!-- <source media="(max-width: 599px)" srcset="images_src/me-small_small.jpg">
               <source media="(min-width: 600px)" srcset="images_src/me-large_large.jpg"> -->
-              <img src="images/WOC112.jpeg" alt="Women of Color" style="width: 100%;height: 100%">
+              <img src="images/WOC78.jpg" alt="Women of Color" class="img-responsive" style="width: 100%;height: 100%">
+            </picture>
+            <!-- <img src="http://via.placeholder.com/1000x600" style="width: 100%;height: 100%"> -->
+          </div>
+          <div class="mySlides fill">
+        <!--     <div class="numbertext">3 / 3</div> -->
+              <picture>
+              <!-- <source media="(max-width: 599px)" srcset="images_src/me-small_small.jpg">
+              <source media="(min-width: 600px)" srcset="images_src/me-large_large.jpg"> -->
+              <img src="images/WOC112.jpg" alt="Women of Color" class="img-responsive" style="width: 100%;height: 100%">
             </picture>
             <!-- <img src="http://via.placeholder.com/1000x600" style="width: 100%;height: 100%"> -->
           </div>
@@ -86,7 +98,7 @@
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div> -->
-<div class="container">
+<div class="container-main">
     <section class="content">
         <svg id="topsvg" width="100%" height="100" viewBox="0 0 5 10" preserveAspectRatio="none">
             <path d="M0 0 L50 90 L100 0 V100 H0" fill="#F39C12" />
@@ -285,5 +297,6 @@ Improve health data collection focusing on women of color</li>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -46,7 +46,7 @@ body {
 header{
 	background-color: #fff;
 	margin: 0 auto;
-	width: 1024px;
+	width: 100%;
 	text-align: center;
 	/*background-color: #9e3199;*/
 	display: flex;
@@ -70,10 +70,9 @@ header{
   list-style-type: none;
 }
 .nav-bar li {
-  height: 25px;
   float: left;
   margin-right: 0px; 
-  padding: 20px;
+  padding: 15px;
 }
 .nav-bar li:last-child {
   border-right: none;
@@ -96,6 +95,12 @@ header{
   font-weight: bold;
   color: #000;
 }
+
+.nav-bar li.icon{
+    display: none;
+}
+
+
 
 .brandlogo{
 
@@ -132,7 +137,7 @@ header{
 
 
 /* container */
-.container{
+.container-main{
 	font-family: Open Sans,serif;
 	background-color: #EEEEEE;
 	display: flex;
@@ -407,6 +412,8 @@ a.show:hover{
 .history{
 	width: 50%;
 	order:1;
+	height: 500px;
+	overflow: scroll;
 }
 .founding-members{
 	text-align: left;
@@ -416,6 +423,9 @@ a.show:hover{
 .title-1{
 	padding: 5px;
 	width: 100%;
+}
+.info1{
+	text-align: left;
 }
 .list1{
 	padding: 10px;
@@ -507,7 +517,7 @@ input[type=submit]:hover {
   overflow: hidden;
 }
 
-.mySlides {
+.mySlides .fade{
 }
 
 .mySlides img{
@@ -578,7 +588,8 @@ input[type=submit]:hover {
 }
 
 /* Fading animation */
-.fade {
+.fill {
+  opacity: 1;
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -743,6 +754,32 @@ input[type=submit]:hover {
 }
 
 
+/*		NAV BAR RESPONSIVENESS*/
+
+@media screen and (max-width: 600px) {
+  .nav-bar li:not(:last-child) {display: none;}
+  .nav-bar li.icon {
+    float: right;
+    display: block;
+  }
+  .nav-bar li.activeli a{
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar.responsive {position: relative;}
+  .nav-bar.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-bar.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
 
 @media screen and (max-width: 1201px){
 

@@ -17,6 +17,14 @@ function showSlides() {
     setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
 
+function navFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "nav-bar") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav-bar";
+    }
+}
 
 
 // on click add id show to specific div and show hidden div

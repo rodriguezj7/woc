@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- FONT AWESOME/ICONS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,700,700i" rel="stylesheet">
   </head>
@@ -30,7 +32,7 @@
    </div>
 
   </header>
-  <div class="nav-bar">
+  <div class="nav-bar" id="myTopnav">
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -38,6 +40,7 @@
           <li class="activeli"><a href="events.html">Events</a></li>
           <li><a href="#">Donate</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <li class="icon"><a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a></li>
         </ul>
     </nav>
    </div>
@@ -49,7 +52,7 @@
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div> -->
-  <div class="container">
+  <div class="container-main">
     <section class="content2">
     <!-- BULLET POINTS -->
       <div class="featured2">
@@ -82,5 +85,6 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
