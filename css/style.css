@@ -80,7 +80,7 @@ header{
 .nav-bar li a {
   text-decoration: none;
   color: #fff;
-  font: 25px/1 Helvetica, Verdana, sans-serif;
+  font: 20px/1 Helvetica, Verdana, sans-serif;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
