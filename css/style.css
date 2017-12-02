@@ -750,7 +750,7 @@ input[type=submit]:hover {
 
 /*		NAV BAR RESPONSIVENESS*/
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .nav-bar li:not(:last-child) {display: none;}
   .nav-bar li.icon {
     float: right;
@@ -784,7 +784,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 850px){
 
 }
-
+*/
 
 
 /*@media screen and (min-width: 600px){
