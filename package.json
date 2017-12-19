@@ -1,0 +1,24 @@
+{
+  "name": "woc",
+  "version": "1.0.0",
+  "description": "Massachusetts Women of Color Coalition",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clubzspadez/Woc.git"
+  },
+  "author": "JR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clubzspadez/Woc/issues"
+  },
+  "homepage": "https://github.com/clubzspadez/Woc#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-responsive-images": "^1.10.1",
+    "gulp-image-optimization": "^0.1.3"
+  }
+}

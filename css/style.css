@@ -513,7 +513,7 @@ input[type=submit]:hover {
 /*SLIDE SHOW*/
 /* Slideshow container */
 .slideshow-container {
-  height: 600px;
+  height: 400px;
   overflow: hidden;
 }
 
@@ -775,22 +775,3 @@ input[type=submit]:hover {
   }
 }
 
-@media screen and (max-width: 1201px){
-
-
-}
-
-
-@media screen and (max-width: 850px){
-
-}
-
-
-
-/*@media screen and (min-width: 600px){
-
-	.name h1{
-		display: initial;
-	}
-
-}*/
