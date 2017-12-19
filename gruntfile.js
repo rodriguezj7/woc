@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-  runt.initConfig({
+  grunt.initConfig({
     responsive_images: {
       dev: {
         options: {
@@ -13,7 +13,7 @@ module.exports = function(grunt) {
             name: 'large',
             width: '50%',
             suffix: '_large',
-            quality: 40
+            quality: 50
           }]
         },
         files: [{
