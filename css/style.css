@@ -775,3 +775,24 @@ input[type=submit]:hover {
   }
 }
 
+
+@media screen and (min-width: 1100px){
+	.slideshow-container{
+		height: 550px;
+	}
+}
+@media screen and (min-width: 1500px){
+	.slideshow-container{
+		height: 500px;
+	}
+}
+@media screen and (min-width: 1700px){
+	.slideshow-container{
+		height: 900px;
+	}
+}
+@media screen and (min-width: 1800px){
+	.slideshow-container{
+		height: auto;
+	}
+}

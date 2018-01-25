@@ -9,9 +9,8 @@
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
   <!-- MAIN STYLE -->
-  <link rel="stylesheet" href="css/style.css" >
-  <link rel="stylesheet" href="css/styleshistory.css" >
-  <link rel="stylesheet" href="css/contact.css" >
+  <link rel="stylesheet" href="../css/style.css" >
+  <link rel="stylesheet" href="../css/styleshistory.css" >
   <!-- DEVICON -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- FONT AWESOME/ICONS -->
@@ -38,9 +37,9 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="history.html">About Us</a></li>
-          <li><a href="events.html">Events</a></li>
+          <li class="activeli"><a href="events.html">Events</a></li>
           <!-- <li><a href="#">Donate</a></li> -->
-          <li class="activeli"><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li class="icon"><a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a></li>
         </ul>
     </nav>
@@ -53,33 +52,26 @@
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div> -->
-        <div class="container-contact">  
-        <form id="contact" action="" method="post">
-          <h3>Contact Form</h3>
-          <h4>Contact us for more information @ MassachusettsWOCC@gmail.com</h4>
-          <p>Please note that this contact form is still under contruction and we recommend that you email MassachusettsWOCC@gmail.com directly if you have any issues.</p>
-          <br>
-          <fieldset>
-            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Email Address" type="email" tabindex="2" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Web Site" type="url" tabindex="4" required>
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
-          <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
-        </form>
+  <div class="container-main">
+    <section class="content2">
+    <!-- BULLET POINTS -->
+      <div class="featured2">
+          <h1>Connect With Us</h1>
+      </div>
+    <!--   <svg id="border3bttm" width="100%" height="100" viewBox="0 0 5.5 10" preserveAspectRatio="none">
+            <path d="M0 0 L50 90 L100 0 V100 H0" fill="#9E3199" />
+      </svg> -->
+      <div class="work2">
+        <blockquote class="embedly-card"><h4><a href="https://www.meetup.com/MAWOCC/">Massachusetts Women of Color Coalition (MAWOCC)</a></h4><p>Mission Statement: Massachusetts Women of Color Coalition is dedicated to eradicating the racial inequities among women of color created by structural, institutional, interpersonal, and internalized r</p></blockquote>
+        <iframe  class="fb-feed" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmawocc%2F%3Fref%3Dbr_rs&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="500" height="449" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <iframe class="fb-feed2" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmawocc%2F%3Fref%3Dbr_rs&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <script async src="https://cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+      </div>
+    </section>
 </div>
+      <div class="socialMedia">
+      </div>
+  </div>
 
 
 <!-- ICONS/SOCIAL MEDIA -->
@@ -92,7 +84,7 @@
   </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
