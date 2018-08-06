@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>MAWOCC</title>
 
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="./../../images/logo.png">
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
   <!-- MAIN STYLE -->
-  <link rel="stylesheet" href="./../../css/style.css" >
-  <link rel="stylesheet" href="./../../css/styleshistory.css" >
-  <link rel="stylesheet" href="./../../css/contact.css" >
+  <link rel="stylesheet" href="./../../dist/css/style.css">
+  <link rel="stylesheet" href="./../../dist/css/styleshistorys.css">
+  <link rel="stylesheet" href="./../../dist/css/contact.css">
   <!-- DEVICON -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- FONT AWESOME/ICONS -->
@@ -20,78 +23,100 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,700,700i" rel="stylesheet">
-  </head>
-  <body>
+</head>
+
+<body>
 
 
   <!-- TOP BANNER -->
   <header>
-   <div class="brandlogo">
-    <!-- <img src="images/logo.png" alt="Women of color logo"> -->
+    <div class="brandlogo">
+      <!-- <img src="images/logo.png" alt="Women of color logo"> -->
       <h1 id="compName">Massachusetts Women of Color Coalition</h1>
       <img src="./../../images/mawocc.jpeg" alt="Women of color logo">
-   </div>
+    </div>
 
   </header>
   <div class="nav-bar" id="myTopnav">
-      <nav>
-        <ul>
-          <li><a href="./../../index.html">Home</a></li>
-          <li><a href="history.html">About Us</a></li>
-          <li><a href="events.html">Events</a></li>
-          <!-- <li><a href="#">Donate</a></li> -->
-          <li class="activeli"><a href="contact.html">Contact</a></li>
-          <li class="icon"><a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a></li>
-        </ul>
+    <nav>
+      <ul>
+        <li>
+          <a href="./../../index.html">Home</a>
+        </li>
+        <li>
+          <a href="history.html">About Us</a>
+        </li>
+        <li>
+          <a href="events.html">Events</a>
+        </li>
+        <li>
+          <a href="donate.html">Donate</a>
+        </li>
+        <!-- <li>
+          <a href="news.html">News</a>
+        </li> -->
+        <!-- <li><a href="#">Donate</a></li> -->
+        <li class="activeli">
+          <a href="contact.html">Contact</a>
+        </li>
+        <li class="icon">
+          <a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a>
+        </li>
+      </ul>
     </nav>
-   </div>
-   <!-- SLIDESHOW -->
+  </div>
+  <!-- SLIDESHOW -->
 
 
-        <!-- div style="text-align:center">
+  <!-- div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div> -->
-        <div class="container-contact">  
-        <form id="contact" action="" method="post" name="contact" netlify>
-          <h3>Contact Form</h3>
-          <h4>Contact us for more information @ MassachusettsWOCC@gmail.com</h4>
-          <br>
-          <fieldset>
-            <input placeholder="Your name" type="text" tabindex="1" name="name" required autofocus>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Email Address" type="email" name="email" tabindex="2" required>
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Phone Number" type="tel" tabindex="3" name="number" >
-          </fieldset>
-          <fieldset>
-            <input placeholder="Your Web Site" type="url" tabindex="4" name="website" >
-          </fieldset>
-          <fieldset>
-            <textarea placeholder="Type your message here...." tabindex="5" name="text" required></textarea>
-          </fieldset>
-          <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-          </fieldset>
-          <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
-        </form>
-</div>
+  <div class="container-contact">
+    <form id="contact" action="" method="post" name="contact" netlify>
+      <h3>Contact Form</h3>
+      <h4>Contact us for more information @ MassachusettsWOCC@gmail.com</h4>
+      <br>
+      <fieldset>
+        <input placeholder="Your name" type="text" tabindex="1" name="name" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" type="email" name="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number" type="tel" tabindex="3" name="number">
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Web Site" type="url" tabindex="4" name="website">
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your message here...." tabindex="5" name="text" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+  </div>
 
 
-<!-- ICONS/SOCIAL MEDIA -->
+  <!-- ICONS/SOCIAL MEDIA -->
   <footer>
     <div class="icons">
-      <a href="https://www.facebook.com/mawocc/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-      <a href="contact.html"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+      <a href="https://www.facebook.com/mawocc/">
+        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+      </a>
+      <a href="contact.html">
+        <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+      </a>
     </div>
     <div class="copy">Copyright &#169; 2017</div>
   </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="./../../script.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
 </html>
