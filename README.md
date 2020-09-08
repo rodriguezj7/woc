@@ -1,3 +1,4 @@
+######! needs major refactor and tech work done. future plans include moving to react, react-router, redux. implementing auth, and potential ecommerce integration.
 # woc
 Massachusetts Women of Color Coalition 
 
