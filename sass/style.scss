@@ -414,6 +414,7 @@ a.show:hover {
 /*---------------------------MEMBERS PAGE/ABOUT US------------------------*/
 
 .container-members {
+  text-align: left;
   max-width: 1024px;
   width: 100%;
   margin: 25px auto;
@@ -424,7 +425,6 @@ a.show:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
 }
 .container-members 12 {
   max-width: 1024px;
