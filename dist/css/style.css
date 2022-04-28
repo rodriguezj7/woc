@@ -427,8 +427,7 @@ a.show:hover
     justify-content:center;
     text-align:left
 }
-.container-members 12
-{
+.container-members {
     max-width:1024px;
     width:100%;
     margin:25px auto;
@@ -472,7 +471,11 @@ a.show:hover
 }
 .info1
 {
-    text-align:left
+    text-align:left;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .list1
 {
@@ -906,4 +909,63 @@ input[type=submit]:hover
         height:auto
     }
 
+}
+
+.donate {
+    width: 100%;
+}
+
+  .button {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #e7e7e7;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.button--mimas {
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 1.85rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    color: #fff;
+    background: #e7e7e7;
+    padding: 28px;
+    margin-bottom: 50px;
+  }
+
+
+  .button--mimas a {
+	position: relative;
+	mix-blend-mode: difference;
+    color: #fff;
+}
+
+.button--mimas::before {
+	content: '';
+	background: #f39c12;
+	width: 120%;
+	left: -10%;
+	transform: skew(30deg);
+	transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.button--mimas:hover::before {
+	transform: translate3d(100%,0,0);
 }
