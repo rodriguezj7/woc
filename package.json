@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/clubzspadez/Woc#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.5.3",
     "grunt-responsive-images": "^1.10.1",
     "gulp-image-optimization": "^0.1.3"
   },
